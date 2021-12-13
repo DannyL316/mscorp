@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>MakesSense</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" sizes="16x16 32x32 128x128" type="image/png">
+</head>
+<body>
+    
+    <div id="menubar">
+        <img id="logo" alt="logo" src="favicon.png">
+        <div id="placeholder">
+            <i id="i1" class="fas fa-home" style="color: white"></i>
+            <span id="e1"><a href="index.html">Home</a></span>
+            <i id="i2" class="fas fa-box-open" style="color: white"></i>
+            <span id="e2"><a href="#">Products</a></span>
+            <i id="i3" class="fas fa-address-card" style="color: white"></i>
+            <span id="e3"><a href="Contact.html">Contact Us</a></span>
+            
+            <i id="i4" class="fas fa-shopping-cart"></i>
+            <span id="szam"></span>
+        </div>
+    </div>
+    
+    <div id="content">
+        
+        <h1 id="fszov">Products</h1>
+        
+        <div id="prod1" class="prod-ui">
+            <img draggable="false" alt="prod img" src="">
+            <p draggable="false">[ Product 1 ]</p>
+            <p id="mon">$Price$</p>
+            <button onclick="add()">Buy</button>
+        </div>
+        
+        <div id="prod2" class="prod-ui">
+            <img draggable="false" alt="prod img" src="">
+            <p draggable="false">[ Product 2 ]</p>
+            <p id="mon">$Price$</p>
+            <button onclick="add()">Buy</button>
+        </div>
+        
+        <div id="prod3" class="prod-ui">
+            <img draggable="false" alt="prod img" src="">
+            <p>[ Product 3 ]</p>
+            <p id="mon">$Price$</p>
+            <button onclick="add()">Buy</button>
+        </div>
+        
+        <div id="prod4" class="prod-ui">
+            <img draggable="false" alt="prod img" src="">
+            <p>[ Product 4 ]</p>
+            <p id="mon">$Price$</p>
+            <button onclick="add()">Buy</button>
+        </div>
+        
+    </div>    
+    
+    <script src="https://kit.fontawesome.com/86b3352192.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    
+        var kosarszam = document.getElementById("szam"), count = 0;
+        
+        kosarszam.innerHTML = "0";
+        
+        function add() {
+            count += 1;
+            kosarszam.innerHTML = count;
+        };
+    
+    </script>
+</body>
+</html>
