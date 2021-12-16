@@ -149,27 +149,11 @@ body
     height: auto;
 }
 
-#fszov
-{
-    margin-left: 46%;
-    margin-top: 40px;
-    font-family: arial;
-    background: repeating-linear-gradient(-90deg, red 0%, yellow 7.14%, rgb(0, 255,0) 14.28%,
-rgb(0, 255, 255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-    background-size: 200%;
-    letter-spacing: 3px;
-    font-weight: 600;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: anim 10s linear infinite;
-}
-@keyframes anim{
-    0%{
-        background-position: 0%;
-    }
-    100%{
-        background-position: 200%;
-    }
+#prodszov{
+    width: 230px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 43%;
 }
 
 .prod-ui
