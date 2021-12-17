@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>MakesSense</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" sizes="16x16 32x32 128x128" type="image/png">
+</head>
+<body>
+    
+    <div id="menubar">
+        <img id="logo" alt="logo" src="favicon.png">
+        <div id="placeholder">
+            <i id="i1" class="fas fa-home" style="color: white"></i>
+            <span id="e1"><a href="index.html">Home</a></span>
+            <i id="i2" class="fas fa-box-open" style="color: white"></i>
+            <span id="e2"><a href="Products.html">Products</a></span>
+            <i id="i3" class="fas fa-address-card" style="color: white"></i>
+            <span id="e3"><a href="Contact.html">Contact Us</a></span>
+            <i id="i4" class="fas fa-tshirt" style="color: white"></i>
+            <span id="e4"><a href="#">Merch</a></span>
+            
+            <i id="kosar" class="fas fa-shopping-cart"></i>
+            <span id="szam"></span>
+        </div>
+    </div>
+    
+    <div id="content">  
+        <img id="merchszov" alt="Merch" src="merchtext.png">
+        
+        <div id="merch1" class="prod-ui">
+            <img draggable="false" alt="prod img" src="tshirt.png">
+            <p draggable="false">MS blue t-shirt</p>
+            <p id="mon">3 000 Ft</p>
+            <button onclick="add()">Buy</button>
+        </div>
+        <div id="merch2" class="prod-ui">
+            <img draggable="false" alt="prod img" src="mousepad.png">
+            <p draggable="false">MS mousepad</p>
+            <p id="mon">1 500 Ft</p>
+            <button onclick="add()">Buy</button>
+        </div>
+        <div id="merch3" class="prod-ui">
+            <img draggable="false" alt="prod img" src="hoodie.png">
+            <p draggable="false">MS hoodie</p>
+            <p id="mon">4 500 Ft</p>
+            <button onclick="add()">Buy</button>
+        </div>
+        
+    </div>    
+    
+    <script src="https://kit.fontawesome.com/86b3352192.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    
+        var kosarszam = document.getElementById("szam"), count = 0;
+        
+        kosarszam.innerHTML = "0";
+        
+        function add() {
+            count += 1;
+            kosarszam.innerHTML = count;
+        };
+    
+    </script>
+</body>
+</html>
