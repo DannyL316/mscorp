@@ -9,10 +9,10 @@ body
     background-color: #ebebeb;
 }
 
-#i4
+#kosar
 {
     color: #fff;
-    margin-left: 58%;
+    margin-left: 48.5%;
 }
 
 #szam
@@ -135,9 +135,21 @@ body
 
 #e3
 {
-    margin-left: 45px;
+    margin-left: 4%;
     color: #ffffff;
     font-family: sans-serif;
+}
+
+#e4
+{
+    margin-left: 4%;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+#i4
+{
+    margin-left: -.5%;
 }
 
 /*-------------------- Products --------------------*/
@@ -238,4 +250,31 @@ body
 {
     margin-top: 10%;
     font-family: segoe print;
+}
+
+/*-------------------- Merch --------------------*/
+
+#merchszov
+{
+    width: 230px;
+    display: block;
+    margin-left: 41.9%;
+    margin-top: 10px;
+}
+
+#merch1, #merch2, #merch3
+{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+#merch1
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#merch2
+{
+    margin-right: 10%;
 }
