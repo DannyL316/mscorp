@@ -242,6 +242,40 @@ body
     transform: translateY(-650px);
 }
 
+#name1{
+    text-align: center;
+    font-family: Arial;
+    color: #000;
+}
+
+#name2{
+    text-align: center;
+    font-family: Arial;
+    color: #000;
+}
+
+#sokk{
+    display: flex;
+    margin-left: 30%;
+    margin-top:25px;
+    padding-bottom:50px;
+}
+
+#netdrive{
+    display: flex;
+    margin-left: 30%;
+    margin-top:25px;
+    padding-bottom:50px;
+}
+
+#sokktrollercon{
+    background-color: #2b8ecc;
+}
+
+#netdrivecon{
+    background-color: #cc2b2b;
+}
+
 /*-------------------- Contact Us ------------------*/
 
 #contactp
